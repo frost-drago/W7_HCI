@@ -1,0 +1,105 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: grey;
+}
+
+.something {
+    clip-path: circle(50% at center)
+}
+
+.container {
+    background-color: white;
+    margin: auto;
+    padding: 20px;
+
+    width: 80%;
+    max-width: 800px;
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    row-gap: 20px;
+    column-gap: 15px;
+    justify-content: center;
+    align-items: center;
+}
+
+.palette_box {
+    background-color: white;
+    display: inline-block;
+    padding: 15px;
+    border-radius: 14px;
+    box-shadow: 0px 5px 8px 0px rgba(12,12,12, 70%);
+}
+
+h1, p {
+    text-align: center;
+    font-family: monospace;
+}
+
+.square {
+    width: 80px;
+    height: 80px;
+    border-radius: 10px;
+    border-style: solid;
+    border-width: 5px;
+    border-color: rgba(0,0,0, 30%);
+    box-shadow: 0px 3px 5px 0px rgba(12,12,12, 60%);
+}
+
+
+/* COLORS */
+
+/* primary colors */
+.red {
+    background-color: rgb(255, 0, 0);
+}
+
+.green {
+    background-color: rgb(0, 255, 0);
+}
+
+.blue {
+    background-color: rgb(0, 0, 255);
+}
+
+/* secondary colors */
+.yellow {
+    background-color: rgb(255, 255, 0);
+}
+
+.cyan {
+    background-color: rgb(0, 255, 255);
+}
+
+.magenta {
+    background-color: rgb(255, 0, 255);
+}
+
+/* tertiary colors */
+.orange {
+    background-color: rgb(255, 127, 0);
+}
+
+.chartreuse {
+    background-color: rgb(127, 255, 0);
+}
+
+.spring_green {
+    background-color: rgb(0, 255, 127);
+}
+
+.azure {
+    background-color: rgb(0, 127, 255);
+}
+
+.bright_pink {
+    background-color: rgb(255, 0, 127);
+}
+
+.purple {
+    background-color: rgb(127, 0, 255);
+}
